@@ -21,7 +21,7 @@ const Main = () => {
   const handleClick = (e) => {
     const isDisabled = Object.values(values).some(value => !value)
 
-    if (isDisabled) e.preventDefault( )
+    if (isDisabled) e.preventDefault()
   }
 
 
@@ -54,7 +54,6 @@ const Main = () => {
               required
             />
           </div>
-
           <Link
             className={styles.group}
             onClick={handleClick}
